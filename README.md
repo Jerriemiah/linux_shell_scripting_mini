@@ -1,5 +1,5 @@
 # linux_shell_scripting_mini
-This project included practice for shell scripting and creating variables
+This project included practice for shell scripting 
 # **Linux Shell Scripting Automation Project**
 
 ## **Introduction**
@@ -29,15 +29,31 @@ The variable `name` holds the value `"john"`.
 
 I used `echo` command to call the variable and it printed its value
 
-## **Comment Explanation**
-Comments are lines of codes that are ignore by the interpreter. 
- In Bash scripts, comment help document the purpose of a code, making it easier for others (and myself) to follow and understand the script's functionality.
+##
 
- I Created a script using *vim* called `echo_comments` and ran the scipt to demonstrate how comments work.
- 
+# **Commented Shell Script Project**
+
+## **Objective**
+Here I implemented the instructor's requirement of writing a **commented shell script (`commented_script.sh`)** that automates basic system tasks while including inline explanations.
+
+## **Implemented Features**
+- **Welcome Message**: The script begins with a `echo` command displaying a greeting.
+- **Directory Creation**: Automatically creates a folder named `TestFolder`.
+- **File Listing**: Uses `ls` to display files inside `TestFolder`.
+- **Goodbye Message**: Ends the script with a farewell message.
+- **Inline Comments**: Each step is explained using `#` comments for clarity.
+
+## **Execution Details**
+1. **Created and wrote the script using Vim (`commented_script.sh`).**
+2. **Attempted execution but faced permission errors.**
+3. **Resolved permissions** to allow execution (`chmod +x commented_script.sh`).
+4. **Ran the script successfully**, verifying that:
+   - `TestFolder` was created (`ls` command output confirmed).
+   - Messages appeared correctly.
+   - File listing worked as expected.
 
 ## **Screenshots**
-Screenshots of all commands used have been included at below.
+Screenshots of all execution steps and commands have been included.
 
 ![bash_script_vim](./img/img1_bashscript.png)
 #
@@ -49,6 +65,6 @@ Screenshots of all commands used have been included at below.
 #
 ![echo](./img/img5_echo.png)
 #
-![echo_commentcreation](./img/img6_echo_comments1.png)
+![echo_commentcreation](./img/img8_comment_scipt_create_denied.png)
 #
-![echo_commentexecution](./img/img7_echo_comments2.png)
+![echo_commentexecution](./img/img8_comment_scipt_successful.png)
