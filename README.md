@@ -29,6 +29,13 @@ The variable `name` holds the value `"john"`.
 
 I used `echo` command to call the variable and it printed its value
 
+## **Comment Explanation**
+Comments are lines of codes that are ignore by the interpreter. 
+ In Bash scripts, comment help document the purpose of a code, making it easier for others (and myself) to follow and understand the script's functionality.
+
+ I Created a script using *vim* called `echo_comments` and ran the scipt to demonstrate how comments work.
+ 
+
 ## **Screenshots**
 Screenshots of all commands used have been included at below.
 
@@ -41,4 +48,7 @@ Screenshots of all commands used have been included at below.
 ![user_foler_confirmed](./img/img4_user_folder_confirmed.png)
 #
 ![echo](./img/img5_echo.png)
-
+#
+![echo_commentcreation](./img/img6_echo_comments1.png)
+#
+![echo_commentexecution](./img/img7_echo_comments2.png)
