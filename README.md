@@ -6,7 +6,7 @@ This project included practice for shell scripting and creating variables
 Shell scripting is used to automate repetitive tasks in Linux by executing multiple commands sequentially within a script. It enhances efficiency in system administration and task automation.
 
 ## **Task Overview**
-I created a **bash script** named `my_first_shell_script.sh` using Vim. The script performs the following operations:
+I created a **bash script** named `my_first_shell_script.sh` using Vim as the instructor instructed. The script performs the following operations:
 - Creates **three directories**: `folder1`, `folder2`, `folder3`.
 - Adds **three users**: `user1`, `user2`, `user3`.
 
